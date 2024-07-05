@@ -18,7 +18,14 @@ body {
     width: 100%;
     text-align: center;
   }
-  
+  h1{
+    font-family: sans-serif;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  span{
+    color: #007BFF;
+  }
   .profile img {
     width: 100px;
     height: 100px;

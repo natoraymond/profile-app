@@ -1,6 +1,7 @@
 function updateTimeAndDay() {
     const currentTimeElement = document.getElementById('current-time');
     const currentDayElement = document.getElementById('current-day');
+
   
     const now = new Date();
     const utcTime = now.toUTCString().split(' ')[4];
